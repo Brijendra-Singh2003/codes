@@ -3,23 +3,32 @@ header{
     background-color: rgb(35, 0, 68);
     line-height: 50px;
     text-align: center;
-    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 29px;
+    border: solid;
 }
 main{
+    position:static;
     color: white;
-    background: #3c0048c5;
-    border: 2px solid #150028;
+    background-image: url(./images/pattern2.jpeg);
+    background-size: 400px 300px;
     text-align: center;
+    border: 5px solid #17002b;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 8px auto;
 }
-#dp{
+#dp {
     width: 200px;
-}
+    border: solid rgba(0, 20, 126, 0.35);
+    border-radius: 16px;
+  }
 #info{
     margin: 15px;
     line-height: 1.5;
 }
 .bg-31{
-    background-color: rgb(31,31,31)
+    background-image: url(./images/main-bg.jpeg);
+    background-attachment: fixed;
 }
 aside{
     color: rgb(222, 0, 0);
