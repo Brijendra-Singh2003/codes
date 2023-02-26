@@ -1,0 +1,32 @@
+header{
+    color: rgb(255, 255, 82);
+    background-color: rgb(35, 0, 68);
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+main{
+    color: white;
+    background: #3c0048c5;
+    border: 2px solid #150028;
+    text-align: center;
+}
+#dp{
+    width: 200px;
+}
+#info{
+    margin: 15px;
+    line-height: 1.5;
+}
+.bg-31{
+    background-color: rgb(31,31,31)
+}
+aside{
+    color: rgb(222, 0, 0);
+    background-color: #fffd90;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
