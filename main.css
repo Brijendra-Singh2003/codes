@@ -10,6 +10,7 @@ main{
     position:static;
     color: white;
     background-image: url(./images/pattern2.jpeg);
+    background-repeat: no-repeat;
     background-size: 400px 300px;
     text-align: center;
     border: 5px solid #17002b;
@@ -28,11 +29,26 @@ main{
 }
 .bg-31{
     background-image: url(./images/main-bg.jpeg);
-    background-attachment: fixed;
+    background-attachment:fixed ;
+}
+.animate-opacity{
+    animation-name: example2;
+    animation-duration: 1s;
+}
+@keyframes example2 {
+    0%{opacity: 0;}
+    100%{opacity:1}
 }
 aside{
-    color: rgb(222, 0, 0);
-    background-color: #fffd90;
+    animation: 3s linear 1s infinite running slidein;
+    margin: auto;
+    width:200vh;
+    color: rgb(234, 0, 0);
+    background-color: rgb(255, 255, 0);
+    animation-iteration-count: infinite;
+}
+@keyframes slidein {
+    
 }
 footer{
     color: white;
