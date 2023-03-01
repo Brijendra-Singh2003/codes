@@ -1,9 +1,8 @@
 body{
-    background-color: rgb(58, 56, 56);
+    background-image: url(./images/bg-box.jpeg);
+    background-size: cover;
 }
 .tile > img {
-    transform: scale(1.01);
-    transition-duration: 200ms;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -19,68 +18,91 @@ body{
     transition-duration: 500ms;
 }
 .tile:hover > img {
+    transform: scale(1.01);
+    transition-duration: 500ms;
     opacity: 1;
 }
 #box1 {
     background-color: brown;
     margin-top: 2%;
-    margin-left: 1%;
+    margin-left: 2%;
     height: 26vh;
-    width: 21vh;
+    width: 25vh;
 }
 #box2 {
     background-color: rgb(32, 220, 38);
     margin-top: -12%;
-    margin-left: 15%;
+    margin-left: 21%;
     height: 19vh;
     width: 30vh;
 }
 #box3 {
     background-color: rgb(32, 88, 220);
-    margin-top: 3%;
-    margin-left: 21%;
-    height: 30vh;
-    width: 25vh;
+    margin-top: 6%;
+    margin-left: 22%;
+    height: 25vh;
+    width: 30vh;
 }
 #box4 {
     background-color: rgb(220, 32, 217);
-    margin-top: -10%;
+    margin-top: -12%;
     margin-left: 2%;
     height: 19vh;
     width: 30vh;
 }
 #box5 {
     background-color: rgb(32, 220, 204);
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-top: 8%;
+    margin-left: 22%;
     height: 23vh;
     width: 30vh;
 }
 #box6 {
     background-color: rgb(251, 255, 0);
-    margin-top: -12%;
+    margin-top: -15%;
     margin-left: 2%;
     height: 30vh;
     width: 27vh;
 }
 #box7 {
     background-color: rgb(255, 166, 0);
-    margin-top: -27%;
-    margin-left: 37%;
+    margin-top: -14%;
+    margin-left: 80%;
     height: 24vh;
     width: 37vh;
 }
 #box8 {
     background-color: rgb(162, 75, 38);
-    margin-top: -29%;
-    margin-left: 36%;
+    margin-top: -38%;
+    margin-left: 43%;
     height: 30vh;
     width: 24vh;
 }
 #box9 {
     background-color: rgb(34, 206, 138);
-    margin-top: -12%;
-    margin-left: 52%;
-    height: 24vh;
+    margin-top: -14%;
+    margin-left: 60%;
+    height: 30vh;
     width: 34vh;
+}
+#box10 {
+    background-color: rgb(131, 243, 11);
+    margin-top: 7%;
+    margin-left: 43%;
+    height: 35vh;
+    width: 27vh;
+}
+#box11 {
+    background-color: rgb(255, 121, 208);
+    margin-top: -36%;
+    margin-left: 83%;
+    height: 35vh;
+    width: 27vh;
+}
+#box12 {
+    background-color: rgb(255, 53, 53);
+    margin-top: 0%;
+    margin-left: 62%;
+    height: 35vh;
+    width: 27vh;
 }
