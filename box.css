@@ -7,14 +7,17 @@ body{
     width: 100%;
     object-fit: cover;
     opacity: 0;
+    transition-duration: 500ms;
     border-radius: inherit;
 }
 .tile{
+    transition-duration: 500ms;
+    transform: scale(1);
+    cursor: pointer;
     border-radius: 7%;
 }
 .tile:hover{
     transform: scale(1.1);
-    cursor: pointer;
     transition-duration: 500ms;
 }
 .tile:hover > img {
