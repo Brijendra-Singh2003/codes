@@ -1,17 +1,20 @@
 body{
     background-image: url(./images/bg-box.jpeg);
-    background-size: cover;
+    background-size:cover;
+}
+*{
 }
 .tile > img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
     opacity: 0;
     transition-duration: 500ms;
     border-radius: inherit;
 }
 .tile{
-    transition-duration: 500ms;
+    position:fixed;
+    /* transition-duration: 500ms; */
     transform: scale(1);
     cursor: pointer;
     border-radius: 7%;
@@ -27,85 +30,85 @@ body{
 }
 #box1 {
     background-color: brown;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 1vh;
+    margin-left: 2vw;
     height: 26vh;
-    width: 25vh;
+    width: 10vw;
 }
 #box2 {
     background-color: rgb(32, 220, 38);
-    margin-top: -12%;
-    margin-left: 21%;
-    height: 19vh;
-    width: 30vh;
+    margin-top: 12vh;
+    margin-left: 18vw;
+    height: 25vh;
+    width: 18vw;
 }
 #box3 {
     background-color: rgb(32, 88, 220);
-    margin-top: 6%;
-    margin-left: 22%;
-    height: 25vh;
-    width: 30vh;
+    margin-top: 4vh;
+    margin-left: 46vw;
+    height: 20vh;
+    width: 15vw;
 }
-#box4 {
+    #box4 {
     background-color: rgb(220, 32, 217);
-    margin-top: -12%;
-    margin-left: 2%;
-    height: 19vh;
-    width: 30vh;
+    margin-top: 33vh;
+    margin-left: 58vw;
+    height: 25vh;
+    width: 14vw;
 }
 #box5 {
     background-color: rgb(32, 220, 204);
-    margin-top: 8%;
-    margin-left: 22%;
-    height: 23vh;
-    width: 30vh;
+    margin-top: 2vh;
+    margin-left: 73vw;
+    height: 28vh;
+    width: 20vw;
 }
 #box6 {
     background-color: rgb(251, 255, 0);
-    margin-top: -15%;
-    margin-left: 2%;
+    margin-top: 64vh;
+    margin-left: 69vw;
     height: 30vh;
-    width: 27vh;
+    width: 17vw;
 }
 #box7 {
     background-color: rgb(255, 166, 0);
-    margin-top: -14%;
-    margin-left: 80%;
-    height: 24vh;
-    width: 37vh;
+    margin-top: 74vh;
+    margin-left: 48vw;
+    height: 20vh;
+    width: 12vw;
 }
 #box8 {
     background-color: rgb(162, 75, 38);
-    margin-top: -38%;
-    margin-left: 43%;
-    height: 30vh;
-    width: 24vh;
+    margin-top: 33vh;
+    margin-left: 39vw;
+    height: 34vh;
+    width: 14vw;
 }
 #box9 {
     background-color: rgb(34, 206, 138);
-    margin-top: -14%;
-    margin-left: 60%;
+    margin-top: 60vh;
+    margin-left: 18vw;
     height: 30vh;
-    width: 34vh;
+    width: 17vw;
 }
 #box10 {
     background-color: rgb(131, 243, 11);
-    margin-top: 7%;
-    margin-left: 43%;
-    height: 35vh;
-    width: 27vh;
+    margin-top: 35vh;
+    margin-left: 1vw;
+    height: 25vh;
+    width: 14vw;
 }
 #box11 {
     background-color: rgb(255, 121, 208);
-    margin-top: -36%;
-    margin-left: 83%;
-    height: 35vh;
-    width: 27vh;
+    margin-top: 70vh;
+    margin-left: 2vw;
+    height: 25vh;
+    width: 9vw;
 }
 #box12 {
     background-color: rgb(255, 53, 53);
-    margin-top: 0%;
-    margin-left: 62%;
-    height: 35vh;
-    width: 27vh;
+    margin-top: 36vh;
+    margin-left: 87vw;
+    height: 25vh;
+    width: 9vw;
 }

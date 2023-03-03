@@ -1,54 +1,32 @@
 header{
     color: rgb(255, 255, 82);
     background-color: rgb(35, 0, 68);
-    line-height: 50px;
+    padding: 1%;
     text-align: center;
     border-radius: 29px;
     border: solid;
 }
 main{
-    position:static;
     color: white;
     background-image: url(./images/pattern2.jpeg);
-    background-repeat: no-repeat;
-    background-size: 400px 300px;
+    background-size: cover;
     text-align: center;
     border: 5px solid #17002b;
     border-radius: 15px;
     width: fit-content;
-    margin: 8px auto;
+    margin: auto;
 }
 #dp {
-    width: 200px;
+    width: 60%;
     border: solid rgba(0, 20, 126, 0.35);
     border-radius: 16px;
   }
 #info{
-    margin: 15px;
     line-height: 1.5;
 }
 .bg-31{
     background-image: url(./images/main-bg.jpeg);
-    background-attachment:fixed ;
-}
-.animate-opacity{
-    animation-name: example2;
-    animation-duration: 1s;
-}
-@keyframes example2 {
-    0%{opacity: 0;}
-    100%{opacity:1}
-}
-aside{
-    animation: 3s linear 1s infinite running slidein;
-    margin: auto;
-    width:200vh;
-    color: rgb(234, 0, 0);
-    background-color: rgb(255, 255, 0);
-    animation-iteration-count: infinite;
-}
-@keyframes slidein {
-    
+    background-attachment: fixed;
 }
 footer{
     color: white;
