@@ -30,85 +30,85 @@ body{
 }
 #box1 {
     background-color: brown;
-    margin-top: 1vh;
-    margin-left: 2vw;
+    top: 1vh;
+    left: 2vw;
     height: 26vh;
     width: 10vw;
 }
 #box2 {
     background-color: rgb(32, 220, 38);
-    margin-top: 12vh;
-    margin-left: 18vw;
+    top: 12vh;
+    left: 18vw;
     height: 25vh;
     width: 18vw;
 }
 #box3 {
     background-color: rgb(32, 88, 220);
-    margin-top: 4vh;
-    margin-left: 46vw;
+    top: 4vh;
+    left: 46vw;
     height: 20vh;
     width: 15vw;
 }
     #box4 {
     background-color: rgb(220, 32, 217);
-    margin-top: 33vh;
-    margin-left: 58vw;
+    top: 33vh;
+    left: 58vw;
     height: 25vh;
     width: 14vw;
 }
 #box5 {
     background-color: rgb(32, 220, 204);
-    margin-top: 2vh;
-    margin-left: 73vw;
+    top: 2vh;
+    left: 73vw;
     height: 28vh;
     width: 20vw;
 }
 #box6 {
     background-color: rgb(251, 255, 0);
-    margin-top: 64vh;
-    margin-left: 69vw;
+    top: 64vh;
+    left: 69vw;
     height: 30vh;
     width: 17vw;
 }
 #box7 {
     background-color: rgb(255, 166, 0);
-    margin-top: 74vh;
-    margin-left: 48vw;
+    top: 74vh;
+    left: 48vw;
     height: 20vh;
     width: 12vw;
 }
 #box8 {
     background-color: rgb(162, 75, 38);
-    margin-top: 33vh;
-    margin-left: 39vw;
+    top: 33vh;
+    left: 39vw;
     height: 34vh;
     width: 14vw;
 }
 #box9 {
     background-color: rgb(34, 206, 138);
-    margin-top: 60vh;
-    margin-left: 18vw;
+    top: 60vh;
+    left: 18vw;
     height: 30vh;
     width: 17vw;
 }
 #box10 {
     background-color: rgb(131, 243, 11);
-    margin-top: 35vh;
-    margin-left: 1vw;
+    top: 35vh;
+    left: 1vw;
     height: 25vh;
     width: 14vw;
 }
 #box11 {
     background-color: rgb(255, 121, 208);
-    margin-top: 70vh;
-    margin-left: 2vw;
+    top: 70vh;
+    left: 2vw;
     height: 25vh;
     width: 9vw;
 }
 #box12 {
     background-color: rgb(255, 53, 53);
-    margin-top: 36vh;
-    margin-left: 87vw;
+    top: 36vh;
+    left: 87vw;
     height: 25vh;
     width: 9vw;
 }
