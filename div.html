@@ -4,32 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>box</title>
     <link rel="stylesheet" href="./box.css">
+    <title>box</title>
 </head>
 <body>
-    <div class="gallary">
-        <div class="tile" id="box1">    <img src="./images/cat1.jpeg">  </div>
-        <div class="tile" id="box2">    <img src="./images/dog2.jpg">   </div>
-        <div class="tile" id="box3">    <img src="./images/dog3.jpeg">  </div>
-        <div class="tile" id="box4">    <img src="./images/pet4.jpeg">  </div>
-        <div class="tile" id="box5">    <img src="./images/pet5.jpeg">  </div>
-        <div class="tile" id="box6">    <img src="./images/pet6.jpeg">  </div>
-        <div class="tile" id="box7">    <img src="./images/pet7.jpeg">  </div>
-        <div class="tile" id="box8">    <img src="./images/pet8.jpg">   </div>
-        <div class="tile" id="box9">    <img src="./images/pet9.jpg">   </div>
-        <div class="tile" id="box10">   <img src="./images/pet10.webp"> </div>
-        <div class="tile" id="box11">   <img src="./images/pet11.jpg">  </div>
-        <div class="tile" id="box12">   <img src="./images/pet12.jpg">  </div>
+
+    <div class="bg float"><img src="./images/main-bg.jpeg"></div>
+
+    <div class="gallary float">
+
+        <div class="tile float" id="box01"><img class="float" src="./images/cat1.jpeg"></div>
+        <div class="tile float" id="box02"><img class="float" src="./images/dogy2.jpg"></div>
+        <div class="tile float" id="box03"><img class="float" src="./images/dog3.jpeg"></div>
+        <div class="tile float" id="box04"><img class="float" src="./images/pet4.jpeg"></div>
+        <div class="tile float" id="box05"><img class="float" src="./images/pet5.jpeg"></div>
+        <div class="tile float" id="box06"><img class="float" src="./images/pet6.jpeg"></div>
+        <div class="tile float" id="box07"><img class="float" src="./images/pet7.jpeg"></div>
+        <div class="tile float" id="box08"><img class="float" src="./images/pets8.jpg"></div>
+        <div class="tile float" id="box09"><img class="float" src="./images/pets9.jpg"></div>
+        <div class="tile float" id="box10"><img class="float" src="./images/pet0.webp"></div>
+        <div class="tile float" id="box11"><img class="float" src="./images/pet11.jpg"></div>
+        <div class="tile float" id="box12"><img class="float" src="./images/pet12.jpg"></div>
+
     </div>
 
     <script>
-        window.onmousemove =(e) => {
-            let x = e.clientX
-            let y = e.clientY
-            document.body.style.setProperty('--top', (-y/window.innerHeight*50)+'%');
-            document.body.style.setProperty('--left', (-x/window.innerWidth*50)+'%');
+
+        window.onmousemove = (e) => {
+            const y = -e.clientY/window.innerHeight;
+            const x = -e.clientX/window.innerWidth ;
+            document.body.style.setProperty('--top',(y*50)+'%');
+            document.body.style.setProperty('--lef',(x*50)+'%');
+            document.body.style.setProperty('--to' ,(y*18)+'%');
+            document.body.style.setProperty('--le' ,(x*18)+'%');
         }
     </script>
+
 </body>
 </html>
