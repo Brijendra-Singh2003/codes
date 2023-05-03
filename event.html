@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position: relative;
+            background-color: black;
+            height: 100vh;
+            width: 100vw;
+        }
+        .container{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            transition-timing-function: ease-out;
+        }
+        #h{
+            background-color: rgb(255, 255, 255);
+        }
+        #a{
+            background-color: rgb(255, 0, 0);
+        }
+        #b{
+            background-color: rgb(251, 255, 0);
+        }
+        #c{
+            background-color: rgb(128, 255, 0);
+        }
+        #d{
+            background-color: rgb(0, 255, 208);
+        }
+        #e{
+            background-color: rgb(0, 115, 255);
+        }
+        #f{
+            background-color: rgb(191, 0, 255);
+        }
+        #g{
+            background-color: rgb(255, 0, 238);
+        }
+        </style>
+    <title>typs of event</title>
+</head>
+<body>
+    <div id="a" class="container"></div>
+    <div id="b" class="container"></div>
+    <div id="c" class="container"></div>
+    <div id="d" class="container"></div>
+    <div id="e" class="container"></div>
+    <div id="f" class="container"></div>
+    <div id="g" class="container"></div>
+    <div id="h" class="container"></div>
+    <script>
+        window.onmousemove = (e) => {
+            foo(e.clientX-20, e.clientY-20)
+        }
+        function foo(x, y) {
+            let v = document.getElementsByClassName('container')
+            v[0].style.top = (y-20) + 'px';
+            v[0].style.left = (x-20) + 'px';
+    
+            setTimeout(() => {
+                    v[1].style.top = (y-20) + 'px';
+                    v[1].style.left = (x-20) + 'px';
+            }, 100);
+            setTimeout(() => {
+                    v[2].style.top = (y-20) + 'px';
+                    v[2].style.left = (x-20) + 'px';
+            }, 200);
+            setTimeout(() => {
+                    v[3].style.top = (y-20) + 'px';
+                    v[3].style.left = (x-20) + 'px';
+            }, 300);
+            setTimeout(() => {
+                    v[4].style.top = (y-20) + 'px';
+                    v[4].style.left = (x-20) + 'px';
+            }, 400);
+            setTimeout(() => {
+                    v[5].style.top = (y-20) + 'px';
+                    v[5].style.left = (x-20) + 'px';
+            }, 500);
+            setTimeout(() => {
+                    v[6].style.top = (y-20) + 'px';
+                    v[6].style.left = (x-20) + 'px';
+            }, 600);
+            setTimeout(() => {
+                    v[7].style.top = (y-20) + 'px';
+                    v[7].style.left = (x-20) + 'px';
+            }, 700);
+
+        }
+    </script>
+</body>
+</html>
